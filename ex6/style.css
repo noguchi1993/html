@@ -1,0 +1,51 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+.clearfix:after{
+ content: "";
+ display: block;
+ clear: both;
+    
+}
+
+header{
+ height: 400px;   
+ background-image: url(img/mv.jpg);
+ background-position: bottom;
+ background-size: cover;
+
+}
+
+.headline{
+ padding:20px;
+ color: darkgray;
+    
+}
+
+main{
+ width: 840px;
+ margin: 0 auto;   
+ color: darkgrey;
+ padding: 50px,0;
+ 
+
+
+}
+.webcanp-clearfix{
+ padding: 30px,0;  
+ border-bottom: 1px solid darkgray;
+ text-align: left
+
+}
+.webcanppro-clearfix{
+ padding: 30px ,0;
+ border-bottom: 1px solid darkgrey;
+
+}
+
+.weblink{
+    color: darkgrey;
+}
